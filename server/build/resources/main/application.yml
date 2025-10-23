@@ -1,0 +1,8 @@
+spring:
+  application:
+    name: neurofleetx-server
+  data:
+    mongodb:
+      uri: ${MONGODB_URI:mongodb://localhost:27017/neurofleetx}
+server:
+  port: ${PORT:8080}
